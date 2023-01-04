@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" type = "text/css" href="stylesheet/style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jennifer McDougall</title>
+</head>
+<body>
+<div id="header">
+  <img src="pics/me.jpeg" alt="photo of Jennifer" />
+  <h1 id="name">Jennifer McDougall</h1>
+
+  <ul id="links">
+    <li><a href="#aboutme">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#leaveamessage">Contact</a></li>
+  </ul>
+</div>
+
+<div class="top">
+  <h2 id="aboutme">About Me</h2>
+  <p id="aboutmetext">
+    I am a former Special Education teacher and aspiring computer programmer. I
+    am based in Minnesota and living on the beautiful North Shore of Lake
+    Superior. I am learning programming because I want to switch career paths
+    while still prioritizing constant learning and problem solving. Even outside
+    of coding I love challenging myself and seeing what I am capable of. At the
+    moment I'm working towards running my 4th ultramarathon! I hope to finish a
+    100 mile race in the next year.
+  </p>
+  <h2 id="skills">Skills</h2>
+  <ul id="skillsList"></ul>
+
+  <h2 id="experience">Experience</h2>
+  <ul id="experienceList"></ul>
+  <h2 id="projects">Projects</h2>
+  <section id="projects">
+    <ul id = 'projectDisplay'></ul>
+   </section>
+</div>
+
+<div class="bottom">
+  <div class="bottomleft">
+      <h2 id="leaveamessage">Leave a Message</h2>
+
+      <form id="form">
+        Name
+        <input type="text" id="name1" required true /><br>
+        Email
+        <input type="text" id="email" required true /><br>
+        <br>
+        Message
+        <br>
+        <textarea id="message" rows="5" cols="30" required true> </textarea><br>
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </div>
+  <div class="bottomright">
+    <section id="messages"></section>
+      <ul id="messageSelection"></ul>
+    
+  </div>
+</div>
+</div>
+<div class="footer">
+  <div id="footerleft"></div>
+
+  <div id="footerright">
+    <a href="https://github.com/JenMcD-star">
+      <img id="github" src="pics/github.png" alt="GitHub" />
+    </a>
+  </div>
+</div>
+</body>
